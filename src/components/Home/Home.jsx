@@ -10,10 +10,14 @@ const Home = () => {
 
     return (
       <div>
-        <div className={navigation.state === "loading" ? "loading" : "d-none"}>
+        <div className="container">
+          <div
+            className={navigation.state === "loading" ? "loading" : "d-none"}
+          >
             <Spinner />
+          </div>
+          <h1 className="text-danger"> This is home</h1>
         </div>
-        <h1 className="text-danger"> This is home</h1>
       </div>
     );
 };

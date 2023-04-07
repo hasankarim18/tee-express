@@ -2,9 +2,11 @@ import React from 'react';
 
 const OrderReview = () => {
     return (
-        <div>
-            <h1 className="text-warning">Order Review</h1>
+      <div>
+        <div className="container">
+          <h1 className="text-warning">Order Review</h1>
         </div>
+      </div>
     );
 };
 

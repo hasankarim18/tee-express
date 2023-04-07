@@ -32,6 +32,15 @@ const Header = () => {
             {" "}
             About{" "}
           </NavLink>
+          <NavLink
+            className={({ isActive}) =>
+              isActive ? "text-danger nav-link fs-5" : " nav-link fs-5"
+            }
+            to="/grandpa"
+          >
+            {" "}
+            Grand Pa{" "}
+          </NavLink>
         </div>
       </nav>
     );

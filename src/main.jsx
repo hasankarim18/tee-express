@@ -7,7 +7,9 @@ import Home from './components/Home/Home'
 import MainLayout from './components/Layout/MainLayout'
 import OrderReview from './components/Orders/OrderReview'
 import About from './components/About/About'
-import GrandPa from './components/GrandPa/GrandPa'
+import GrandPa from './components/Context/GrandPa/GrandPa'
+
+
 
 const router = createBrowserRouter([
   {
